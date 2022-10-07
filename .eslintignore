@@ -1,0 +1,14 @@
+.husky/*
+.lintstagedrc
+.prettierignore
+*.md
+*.json
+*.sh
+*.lock
+*.yml
+*.png
+node_modules/
+next.config.js
+apps/docs-page
+.next/
+out/

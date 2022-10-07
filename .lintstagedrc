@@ -1,0 +1,9 @@
+{
+  "*": [
+    "yarn format"
+  ],
+  "*.{js,jsx,ts,tsx}": [
+    "bash -c tsc -p tsconfig.json",
+    "yarn lint --fix"
+  ]
+}
