@@ -1,3 +1,9 @@
-const LandingPage = () => <h1>Hello World</h1>;
+import { Header } from "../../components";
+
+const LandingPage = () => (
+  <>
+    <Header />
+  </>
+);
 
 export default LandingPage;
